@@ -70,7 +70,6 @@
   padding: 0;
   border: 0;
   font-family: Avenir, sans-serif;
-  font-weight: 300;
 }
 
 .search-bar__field::placeholder {
@@ -101,6 +100,12 @@
 
 .search-bar__field--small:focus {
   text-shadow: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-weight: 300;
 }
 
 .search-bar__item:focus-within {
