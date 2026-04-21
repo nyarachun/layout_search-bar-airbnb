@@ -1,29 +1,22 @@
 <!doctype html>
-<html
-  lang="en"
-  class="page"
->
+<html lang="en" class="page">
   <head>
     <meta charset="UTF-8" />
     <meta
       name="viewport"
       content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
     />
-    <meta
-      http-equiv="X-UA-Compatible"
-      content="ie=edge"
-    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Document</title>
-    <link
-      rel="stylesheet"
-      href="style.css"
-    />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div class="search-bar">
       <form
         class="search-bar__item search-bar__item--large"
         data-qa="big"
+        action="#"
+        method="get"
       >
         <div class="search-bar__icon search-bar__icon--large"></div>
         <input
@@ -31,18 +24,24 @@
           data-qa="keypress"
           placeholder="Try “Los Angeles“"
           class="search-bar__field search-bar__field--large"
+          name="search"
+          id="search-big"
         />
       </form>
 
       <form
         class="search-bar__item search-bar__item--small"
         data-qa="small"
+        action="#"
+        method="get"
       >
         <div class="search-bar__icon search-bar__icon--small"></div>
         <input
           type="text"
           placeholder="Try “Los Angeles“"
           class="search-bar__field search-bar__field--small"
+          name="search"
+          id="search-small"
         />
       </form>
     </div>
